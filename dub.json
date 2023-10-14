@@ -1,0 +1,9 @@
+{
+	"name": "thelxine",
+	"description": "Thelxine Scripting Language",
+
+	"copyright": "Copyright © 2023  Elias Batek",
+	"license": "BSL-1.0",
+
+	"targetPath": "bin"
+}
