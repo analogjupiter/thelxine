@@ -1,0 +1,4 @@
+#!/usr/bin/thelxine
+thelxine_entry "Hello World (Full)";
+
+runtime.writeln("Hello world!");

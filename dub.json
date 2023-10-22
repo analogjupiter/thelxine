@@ -5,5 +5,26 @@
 	"copyright": "Copyright © 2023  Elias Batek",
 	"license": "BSL-1.0",
 
-	"targetPath": "bin"
+	"targetPath": "bin",
+
+	"dependencies": {
+		"thelxine:lang": "*"
+	},
+
+	"subPackages": [
+		{
+			"name": "lang",
+			"importPaths": ["lang"],
+			"sourcePaths": ["lang"],
+			"targetPath": "bin"
+		},
+		{
+			"name": "lexer-cli",
+			"description": "Lexer command-line util",
+			"importPaths": ["tools/lexer-cli"],
+			"sourcePaths": ["tools/lexer-cli"],
+			"targetPath": "bin",
+			"dependencies": { "thelxine:lang": "*" }
+		}
+	]
 }

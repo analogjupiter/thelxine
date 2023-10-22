@@ -1,0 +1,2 @@
+thelxine_script;
+runtime.writeln("Hello world!");
